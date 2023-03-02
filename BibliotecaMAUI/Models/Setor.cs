@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace BibliotecaMAUI.Models
 {
     [Table("setor", Schema = "public")]
-    public class Setor : IServico
+    public class Setor : IEntidade
     {
         [Key]
         public int cd_codigo { get; set; }

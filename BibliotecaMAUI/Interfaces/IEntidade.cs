@@ -1,6 +1,6 @@
 ﻿namespace BibliotecaMAUI.Interfaces
 {
-    public interface IServico
+    public interface IEntidade
     {
         int cd_codigo { get; set; }
     }
