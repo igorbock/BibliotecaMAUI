@@ -9,7 +9,6 @@ namespace BibliotecaMAUI.Models
     {
         [Key]
         public int cd_codigo { get; set; }
-        public int cd_etiqueta { get; set; }
         public int cd_produto { get; set; }
         public decimal vl_m2 { get; set; }
         public int vl_quantidade { get; set; }
